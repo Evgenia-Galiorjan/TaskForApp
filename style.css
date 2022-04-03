@@ -1,0 +1,295 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-arial-caps/css/bpg-arial-caps.min.css");
+
+
+body{
+	padding: 100px 0px 30px 0px;
+    background-color: #e5f3f9;
+}
+.display{
+	display: inline-block;
+	vertical-align: middle;
+}
+a{
+    color:#44a3cd;
+    
+}
+.container{
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.section{
+	width: 100%;
+	height: 100%;
+	padding-top: 25px;
+}
+/* ლურჯი ხაზი */
+.blue{
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height:45px;
+	content: " ";
+	display: inline;
+	clear: right;
+	background-color: #0f89be;
+    z-index: 1;
+}
+/* მენიუ */
+.header-wraper{
+	padding: 20px 0;
+	top: 70;
+	left: 0;
+	width: 100%;
+	content: " ";
+	display: inline;
+	clear: right;
+	background-color: #edfaff;
+}
+
+.navigation{
+	margin-left: 80px;
+}
+.linavigation{
+	font-family:Conv_lvg-bebas-neue-regular;
+	margin-left: 10px;
+	font-size:16px;
+    font-weight: bold;
+
+}
+.fa{
+    	margin-left: 10px;
+        color:white;
+        font-size:20px;
+}
+/* პირველი ბლოკი, ვიდეო */
+.video{
+       background-image: url( http://startup.gov.ge/img/new/bg.png);
+       margin-top:20px;
+       height:600px;
+       width:100%;
+        
+
+}
+/* სიახლეები */
+.text-first{
+	font-size: 1em;
+    border: 1px solid;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #ef4327;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: BPGArialCaps2010;
+    font-size:20px;
+}
+
+.siaxle{
+	font-size: 28px;
+    color: #ef4327;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: BPGArialCaps2010;
+	text-align: center;
+	font-weight:bolder;
+}
+.news{
+	display:inline-block;
+    margin-left:10px;
+}
+.one{
+	position: relative;
+    height: auto;
+    margin-bottom: 15px;
+	margin-top:20px;
+	max-width: 370px;
+	padding-left: 10px;
+}
+.round{
+	width: 57px;
+    height: 57px;
+    position: absolute;
+    top: -15px;
+    left: -7px;
+    background-image: url(http://startup.gov.ge/img/new/nd.png);
+}
+.first{
+	color: #fff;
+    margin-left: 18px;
+    padding-top: 3px;
+    font-family: Conv_lvg-bebas-neue-regular;
+    line-height: 1.2;
+    display: inline-block;
+    font-size: 23px;
+}
+.second{
+	color: #ff8d7a;
+    margin-left: 19px;
+    font-family: Conv_lvg-bebas-neue-regular;
+    line-height: 1.2;
+    display: inline-block;
+    font-size:23px;
+}
+.imageblog{
+background-image: url(http://startup.gov.ge/uploads/news/89/ruxis_naxSiris_sawarmo_3.jpg);
+background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    margin-top: 20px;
+	border-radius: 15px;
+}
+.imageblog2{
+background-image: url(http://startup.gov.ge/uploads/news/88/kombuCa_foto1.JPG
+);
+background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    margin-top: 20px;
+	border-radius: 15px;
+}
+.imageblog3{
+background-image: url(http://startup.gov.ge/uploads/news/87/iwkeben.jpg
+);
+background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    margin-top: 20px;
+	border-radius: 15px;
+}
+.text{
+font-size: 17px;
+font-family: BPGArialCaps2010;
+color: #323232;
+line-height: 1.2;
+text-align: center;
+display: block;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+}
+/* ღილაკი */
+.more{
+ background-image: url(http://startup.gov.ge/img/new/icon_16.png);
+ background-position: center center;
+background-repeat: no-repeat;
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+}
+
+/* ლურჯი */
+.picblueone{
+    background-image: url(http://startup.gov.ge/img/new/icon_12.png
+);
+background-position: center center;
+    background-repeat: no-repeat;
+    width:240px;
+    height: 240px;
+    margin: 0 auto;
+    border:0
+}
+.picbluetwo{
+    background-image: url(http://startup.gov.ge/img/new/icon_14.png
+);
+background-position: center center;
+    background-repeat: no-repeat;
+    width:240px;
+     height: 240px;
+    margin: 0 auto;
+    align-items: center;
+    border:0
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row{
+   background-color: #25afe8;
+    display: inline-block;
+    width:100%;
+    z-index: -1;
+
+    }
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.bluetitle{
+    font-size: 1.7em;
+    color:white;
+    line-height: 1.2;
+    margin-top:35px;
+text-align: center;  
+  }
+   
+.text-new{
+    width:fit-content;
+    align-items: center;
+    font-size: 1em;
+    border: 1px solid;
+    padding: 7px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #ef4327;
+    line-height: 1.2;
+    margin: 0 auto;
+    font-family: BPGArialCaps2010;
+    font-size:20px;
+   }
+   strong{
+       font-weight: bolder;
+   }
+   /* ინფოფუთერში */
+   .text-footer{
+	font-size: 1em;
+    display: inline-block;
+    padding: 7px 15px;
+    color: #25afe9;
+    line-height: 1.2;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: BPGArialCaps2010;
+    font-size:20px;
+}
+.line{
+      background-color: #25afe9;
+      height:3px;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.footertext{
+    text-align: center;
+    font-family: Conv_lvg-bebas-neue-regular;
+    color: #25afe8;
+
+}
+.logos{
+    display: block;
+    margin: auto;
+    width: 32%
+}
+
+.footerlogo{
+    display: inline-block;
+    align-items:center;
+}
+.footerimage{
+    max-width: 150px;
+    max-height:80px;
+}
